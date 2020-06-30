@@ -8,17 +8,17 @@ function App() {
         <nav>
           <div class="row">
             <ul class="main-nav">
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Preciso de Ajuda</a></li>
-              <li><a href="#">Quem Somos</a></li>
-              <li><a href="#">Seja um Profissional</a></li>
-              <li><a href="#">Indicadores</a></li>
-              <li><a href="#">Fale Conosco</a></li>
+              <li><a href="#quemsomos">Inicio</a></li>
+              <li><a href="#quemsomos">Preciso de Ajuda</a></li>
+              <li><a href="#quemsomos">Quem Somos</a></li>
+              <li><a href="#quemsomos">Seja um Profissional</a></li>
+              <li><a href="#quemsomos">Indicadores</a></li>
+              <li><a href="#quemsomos">Fale Conosco</a></li>
             </ul>
           </div>
         </nav>
         <nav>
-          <div class="hero-text-box">
+          <div id='quemsomos' class="hero-text-box">
             <h1>Quem Somos? </h1>
             <p>There are many variations of passages of Lorem Ipsum available,
             but the majority have suffered alteration in some form, by injected humour,
